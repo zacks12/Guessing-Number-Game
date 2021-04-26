@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guess My Number!</h1>
+      <p class="between">(Between 1 and 20)</p>
+      <button class="btn again"> Play again!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Check!</button>
+      </section>
+      <section class="right">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section id="hours" class="col-sm-4">
+            <span>Hours:</span><br>
+            Monday-Sat: 08:00am - 10:00pm<br>
+            Fri: 08:00am - 12:00pm<br>
+            Sunday Closed
+            <hr class="visible-xs">
+          </section>
+          <section id="address" class="col-sm-4">
+            <span>Address:</span><br>
+           No.2 Anthony Enahoro Street  <br>
+           Utako Abuja 
+           <p> <a href="https://github.com/zacks12"> https://github.com/zacks12 </a>  </p>
+
+            <hr class="visible-xs">
+          </section>
+          <section id="testimonials" class="col-sm-4">
+            <p>"This app is been design and Developed by Zakariya Isah!"</p>
+            <p>"Am a Software developer with half of a decade of experience."</p>
+          </section>
+        </div>
+        <div class="text-center">
+          &copy; Copyright Zakariya Isah |
+          <a ui-sref="admin.auth">Software Developer</a></div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
